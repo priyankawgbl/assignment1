@@ -1,5 +1,12 @@
-.toppage {
+.body {
   border: 2px solid #73AD21;
+}
+.newpage {
+  width: 100%;
+  height: 100%;
+}
+.toppage {
+  border: 1px solid #73AD21;
   background-color: #92a8d1;
 }
 .toppage h1 {
@@ -18,14 +25,17 @@
   display: inline-block;
 }
 .pageHolder {
-  border: 2px solid #73AD21;
+
 }
 .row1 img{
-  border: 2px solid #73AD21;
+
 
   height: 60%;
   width: 60%;
   /*margin-left: 30%*/
+}
+.clearfix{
+  clear:both;
 }
 .row1 p{
   float: left;
@@ -45,20 +55,15 @@
   overflow: auto;
   width: 100%;
   text-align: center;
+  margin left: 15%;
 }
 
-.newpage {
-  border: 2px solid #73AD21;
-}
+
 .headerpic {
   width: 10%;
   height: 10%;
   float: left;
   background-color:#ad2153;;
-}
-footer {
-  background-color: #A9A9A9;
-  border: 2px solid #73AD21;
 }
 .container {
   position: relative;
@@ -76,38 +81,53 @@ footer {
 }
 .overlay-text {
   padding-top: 18%;
-}
-.centered {
   text-align: center;
+
 }
 .photo{
   width: 100%;
   height: 300px;
 }
+.footer {
+  background-color: #A9A9A9;
+  border: 1px solid #73AD21;
+
+}
+.home {
+float: left;
+margin-left:10%;
+}
+
 @media screen and (max-width: 992px) {
     .row1 {
+        width: 30%;
+    }
+    .home {
         width: 30%;
     }
 }
 
 @media screen and (max-width: 600px) {
-.toppage img{
-    float: none;
-    width: 100%;
+  .toppage img{
+      float: none;
+      width: 100%;
+    }
+  .toppage h1{
+      float: none;
+      width: 100%;
+    }
+  .toppage h2{
+      float: none;
+      width: 100%;
+    }
+  .row1  {
+      float: none;
+      width: 100%;
   }
-.toppage h1{
-    float: none;
-    width: 100%;
+  .home{
+      float: none;
+      width: 100%;
   }
-.toppage h2{
-    float: none;
-    width: 100%;
-  }
-.row1  {
-    float: none;
-    width: 100%;
-}
-
 }
 
 
