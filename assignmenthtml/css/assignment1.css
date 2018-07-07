@@ -1,4 +1,4 @@
-.body {
+body {
   border: 2px solid #73AD21;
 }
 .newpage {
@@ -15,50 +15,42 @@
 .toppage h2 {
 
 }
+.subheading{
+  float: right;
+}
 .toppage button {
   text-align: center;
   float: right;
   width: 6%;
 }
-.row1
-{
-  display: inline-block;
-}
 .pageHolder {
-
+  width: 100%;
 }
-.row1 img{
-
-
+.imagesection img{
   height: 60%;
   width: 60%;
-  /*margin-left: 30%*/
+  margin-left: 17%;
+  margin-top: 25px;
 }
 .clearfix{
   clear:both;
 }
-.row1 p{
-  float: left;
-  height: 60%;
+.imagesection p{
   width: 60%;
-  /*margin-left: 30%;*/
+  margin-left: 17%;
   text-align:center;
 }
-.row1{
+.imagesection{
   float: left;
-  height: 10%;
-  width: 10%;
-  margin-left: 10%;
-  margin-top: 10%;
+  width: 25%;
 }
-.newline {
+.information {
   overflow: auto;
-  width: 100%;
   text-align: center;
-  margin left: 15%;
+  padding-left:15%;
+  padding-right: 15%;
+
 }
-
-
 .headerpic {
   width: 10%;
   height: 10%;
@@ -67,7 +59,6 @@
 }
 .container {
   position: relative;
-
 }
 .overlay {
   width: 100%
@@ -99,7 +90,7 @@ margin-left:10%;
 }
 
 @media screen and (max-width: 992px) {
-    .row1 {
+    .imagesection {
         width: 30%;
     }
     .home {
@@ -120,7 +111,7 @@ margin-left:10%;
       float: none;
       width: 100%;
     }
-  .row1  {
+  .imagesection  {
       float: none;
       width: 100%;
   }
@@ -128,6 +119,10 @@ margin-left:10%;
       float: none;
       width: 100%;
   }
+.toppage button{
+      float: none;
+      width: 100%;
+    }
 }
 
 
